@@ -8,7 +8,6 @@ from qutip import *
 import sympy as sy
 from sympy import I
 from math import *
-from sq_bath_func import *
 
 #System Parameters (in units of wm)
 #-----------------------------------
