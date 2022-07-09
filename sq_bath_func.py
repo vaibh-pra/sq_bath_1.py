@@ -61,10 +61,10 @@ def initst(Nc, Nm, p1, p2, p3, c1):
 
 def collapse(n_th, r, theta, z, g0):
 #    theta = thet * 2*pi
-    N = sinh(r)**2
+    N = sinh(0)**2
     Neff = n_th*(cosh(r)**2 + sinh(r)**2) + sinh(r)**2
     Meff = cosh(r)*sinh(r)*(2*n_th + 1)*np.exp(1j*theta)
-    M = cosh(r)*sinh(r)*np.exp(1j*theta)
+    M = cosh(r)*sinh(0)*np.exp(1j*theta)
     
     if z == 1:
         # Collapse operators SME
